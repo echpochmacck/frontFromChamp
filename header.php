@@ -16,7 +16,7 @@
         <div class="container p-30">
 
                 <div class="logo">
-                    <img src="" alt="logo">
+                    <a href="/"></a>
                 </div>
                 <ul class="d-flex a-c g-20 fw-w header_info">
                     <li><a href="/#search">Поиск</a></li>

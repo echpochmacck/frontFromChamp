@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BestGames</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/css.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container p-30">
+
+                <div class="logo">
+                    <a href="/"></a>
+                </div>
+                <ul class="d-flex a-c g-20 fw-w header_info">
+                    <li><a href="/#search">Поиск</a></li>
+                    <li><a href="login.html">Войти</a></li>
+                    <li><a href="profile.html">Личный кабинет</a></li>
+                    <li><a href="catalog.html">Каталог игр</a></li>
+                </ul>
+                <div class="burger d-flex f-c a-c g-10">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+    
+                </div>
+
+        </div>
+    </header><main class="sticked ">
+    <div class="stick"></div>
+    <div class="stick stick-2"></div>
+
+    <section class="s_login">
+        <div class="container f-c a-c g-50 p-50">
+            <h1 class="s_title">Добавить игру</h1>
+             <form action="#" class="d-flex f-c a-c g-50 w-100">
+                <label class="d-flex f-c a-c g-20 w-100">
+                    Название
+                    <input type="text" class="form_control is_invalid" placeholder="название" require>
+                    <div class="fb_invalid">Нужно заполнить</div>
+
+                </label>
+                 <label class="d-flex f-c a-c g-20 w-100">
+                   Жанр
+                     <select name="genre" id="genre" class="form_control">
+                        <option value="_" disabled>Выбереье жанр</option>
+                        <option value="1">Файтинг</option>
+                        <option value="2">Экшн/RPG</option>
+                        <option value="2">Приключенческий экшен</option>
+                    </select>
+
+                </label>
+                <div class="d-flex  a-c c-b g-20">
+                    <input type="file" class="d-none" id="file1">
+                    <input type="file" class="d-none" id="file2">
+                    <input type="file" class="d-none" id="file3">
+                    <label for="file1" class="label_file">Изображение</label>
+                    <label for="file2" class="label_file">Изображение</label>
+                    <label for="file3" class="label_file">Изображение</label>
+                </div>
+                </label>
+                 <label class="d-flex f-c a-c g-20 w-100">
+                   Компания разработчик
+                    <input type="text" class="form_control " placeholder="Компания разработчик" require >
+
+                </label>
+                 <label class="d-flex f-c a-c g-20 w-100">
+                   Компания разработчик
+                    <input type="text" class="form_control " placeholder="Компания разработчик" require >
+
+                </label>
+                 <label class="d-flex f-c a-c g-20 w-100">
+                   Описание 
+                    <input type="text" class="form_control " placeholder="описание" >
+
+                </label>
+                 <label class="d-flex f-c a-c g-20 w-100">
+                   Стоимость 
+                  <input type="number" class="form_control" placeholder="стоимость">
+
+                </label>
+               
+                    <button class="btn">Отправить</button>
+
+
+            </form>
+        </div>
+    </section>
+
+    
+</main>
+   <footer>
+    <div class="container c-b fw-w p-20">
+        <div class="d-flex f-c  g-20">
+            <a href="tel:88009995599">8-800-999-55-99</a>
+            <a href="mailto:best@games.ru">best@games.ru</a>
+            <a href="#">Клиентам</a>
+            <a href="#">Партнерам</a>
+            <a href="#">О нас</a>
+            <a href="#">Контакты</a>
+
+
+        </div>
+        <nav class="d-flex f-c  g-20">
+            <a href="/">Главная</a>
+            <a href="register.html">Регистрация</a>
+            <a href="login.html">Авторизация</a>
+            <a href="profile.html">Личный кабинет</a>
+            <a href="/#search">Поиск</a>
+
+
+            
+        </nav>
+    </div>
+   </footer> 
+</body>
+</html>

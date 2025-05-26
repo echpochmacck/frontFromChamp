@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BestGames</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/css.css">
+    <link rel="stylesheet" href="styles/dark.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container p-30">
+
+            <div class="logo">
+                <a href="/"></a>
+            </div>
+            <ul class="d-flex a-c g-20 fw-w header_info">
+                <li><a href="/#search">Поиск</a></li>
+                <li><a href="login.html">Войти</a></li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+                <li><a href="catalog.html">Каталог игр</a></li>
+            </ul>
+            <div class="burger d-flex f-c a-c g-10">
+                <div></div>
+                <div></div>
+                <div></div>
+
+            </div>
+
+        </div>
+    </header>
+    <main>
+
+        <section class="s_slider blured">
+            <div class="container f-c a-c g-50">
+                <div class="d-flex a-c g-5">
+                    <h1 class="s_title color_text" id="textBox"></h1>
+                    <div class="movingStick"></div>
+                </div>
+                <div class="d-flex f-c a-c g-40">
+                    <div class="slider d-flex ">
+                        <div class="slider_img"></div>
+                        <div class="d-flex f-c a-c g-20 p-20 w-100 slider_info">
+                            <h3>DOOM The Dark Ages</h3>
+                            <p>The Dark Ages — <span class="color_text">зрелищное сказание</span> о  <span class="color_text">Палаче Рока</span> и его ярости</p>
+                            <span class="d-block">от 2300 рублей</span>
+                            <a class="btn" href="catalog.html#card1">Подробнеее</a>
+                        </div>
+                        <div class="slider_buttons">
+                            <div class="active"></div>
+                            <div></div>
+                            <div></div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="sliders">
+                        <div></div>
+                        <div></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="s_about mt-50">
+            <div class="stick"></div>
+            <div class="stick stick-2"></div>
+
+            <div class="container f-c a-c g-50 p-20">
+                <h3 class="s_title">Наши преумщества</h3>
+                <div class="d-flex w-100 c-b fw-w about_block">
+                    <div class="d-flex  f-c g-20">
+                        <div class="d-flex a-c g-10">Самые <span class="color_text">Привлекательные цены</span>
+                            <div class="icon5"></div>
+                        </div>
+                        <div class="d-flex a-c g-10"><span class="color_text">Ежемесячные</span> акции <div
+                                class="icon2"></div>
+                        </div>
+                        <div class="d-flex a-c g-10"><span class="color_text">Круглосуточная </span> поддержка <div
+                                class="icon4"></div>
+                        </div>
+                        <div class="d-flex a-c g-10"><span class="color_text">Быстрая </span> покупка <div
+                                class="icon3"></div>
+                        </div>
+
+                    </div>
+                    <div class="about_img"></div>
+                </div>
+            </div>
+        </section>
+        <section class="s_serch mt-50" id="search">
+            <div class="container f-c a-c g-50">
+                <h3 class="s_title"><span class="color_text">Быстрый поиск</span></h3>
+                <form action="#" class="d-flex f-c a-c g-50 w-100">
+                    <label class="d-flex f-c a-c g-20 w-100">
+                        Название игры
+                        <input type="search" class="form_control" list="list">
+                        <datalist id="list">
+                            <option value="1">Doom the darl Ages</option>
+                            <option value="2">Grand Theft Auto V</option>
+                        </datalist>
+
+                    </label>
+                    <div class="btn">Найти</div>
+
+                </form>
+            </div>
+        </section>
+        <section class="card_block mt-50">
+            <div class="container f-c a-c g-50">
+                <h3 class="s_title"> <span class="color_text">Популярные</span> игры</h3>
+                <div class="card_block d-flex a-c g-20 w-100 fw-w">
+                    <div class="card d-flex f-c">
+                        <div class="card_img" id="card5"></div>
+                        <div class="p-20 d-flex f-c a-c g-20">
+                            <h3>Clair Obscur Expedition 33</h3>
+                            <span class="d-block">
+                                Жанр: Приключенческий экшен
+
+                            </span>
+                            <span class="d-block">
+                                Разработчик: Sandfall Interactive
+                            </span>
+                            <span>1900 рублей</span>
+                            <a href="catalog.html#card5" class="btn">Подробнее</a>
+                            <div class="d-flex f-c a-c g-10">Рейтинг: <div class="d-flex a-c g-10">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card d-flex f-c">
+                        <div class="card_img" id="card1"></div>
+                        <div class="p-20 d-flex f-c a-c g-20">
+                            <h3>DOOM The Dark Ages</h3>
+                            <span class="d-block">
+                                Жанр: Файтинг
+
+                            </span>
+                            <span class="d-block">
+                                Разработчик: id Software
+                            </span>
+                            <span>2300 рублей</span>
+                            <a href="catalog.html#card1" class="btn">Подробнее</a>
+                            <div  class="d-flex f-c a-c g-10">Рейтинг: <div class="d-flex a-c g-10">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card d-flex f-c">
+                        <div class="card_img " id="card2"></div>
+                        <div class="p-20 d-flex f-c a-c g-20">
+                            <h3>Assassins Creed Valhalla</h3>
+                            <span class="d-block">
+                                Жанр: Приключенческий экшен
+                            </span>
+                            <span class="d-block">
+                                Разработчик: Ubisoft
+                            </span>
+                            <span>4500 рублей</span>
+                            <a href="catalog.html#card2" class="btn">Подробнее</a>
+                            <div  class="d-flex f-c a-c g-10">Рейтинг: <div class="d-flex a-c g-10">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card d-flex f-c">
+                        <div class="card_img" id="card4"></div>
+                        <div class="p-20 d-flex f-c a-c g-20">
+                            <h3>Grand Theft Auto V</h3>
+                            <span class="d-block">
+                                Жанр: Приключенческий экшен
+
+                            </span>
+                            <span class="d-block">
+                                Разработчик: Rockstar Games
+                            </span>
+                            <span>2400 рублей</span>
+                            <a href="catalog.html#card4" class="btn">Подробнее</a>
+                            <div  class="d-flex f-c a-c g-10">Рейтинг: <div class="d-flex a-c g-10">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card d-flex f-c">
+                        <div class="card_img" id="card3"></div>
+                        <div class="p-20 d-flex f-c a-c g-20">
+                            <h3>Обливион The Elder Scrolls 4</h3>
+                            <span class="d-block">
+                                Жанр: Экшн/RPG
+
+                            </span>
+                            <span class="d-block">
+                                Разработчик: Bethesda Softworks
+                            </span>
+                            <span>3800 рублей</span>
+                            <a href="catalog.html" class="btn">Подробнее</a>
+                            <div  class="d-flex f-c a-c g-10">Рейтинг: <div class="d-flex a-c g-10">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="s_partners mt-50 ">
+            <div class="stick"></div>
+            <div class="stick stick-2"></div>
+
+            <div class="container f-c a-c g-50 p-20">
+                <div class="s_title">Наши партнеры</div>
+                <div class="d-flex w-100 c-b fw-w a-c">
+                    <div class="d-flex f-c a-c g-50">
+                        <div class="partener1"></div>
+                        <div class="partener2"></div>
+
+                    </div>
+                    <div class="partener3"></div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container c-b fw-w p-20">
+            <div class="d-flex f-c  g-20">
+                <a href="tel:88009995599">8-800-999-55-99</a>
+                <a href="mailto:best@games.ru">best@games.ru</a>
+                <a href="#">Клиентам</a>
+                <a href="#">Партнерам</a>
+                <a href="#">О нас</a>
+                <a href="#">Контакты</a>
+
+
+            </div>
+            <nav class="d-flex f-c  g-20">
+                <a href="/">Главная</a>
+                <a href="register.html">Регистрация</a>
+                <a href="login.html">Авторизация</a>
+                <a href="profile.html">Личный кабинет</a>
+                <a href="/#search">Поиск</a>
+
+
+
+            </nav>
+        </div>
+    </footer>
+    <script src="./js/js.js"></script>
+</body>
+
+</html>

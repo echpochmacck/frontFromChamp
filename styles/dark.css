@@ -1,0 +1,40 @@
+
+:root {
+    --mainColor: #6A48D7
+}
+
+body {
+    color: #ffff;
+    background-color: #444444;
+}
+
+.slider_buttons {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2%;
+
+    & div {
+        width: 10%;
+        height: 8px;
+        background-color: rgb(51, 51, 51);
+        transition: .4s;
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+}
+.sliders {
+
+    & div {
+        background-image: url('./../media/pngs/image2.png');
+      
+    }
+}
