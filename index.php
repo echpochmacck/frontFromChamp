@@ -32,7 +32,7 @@ include('header.php')
             </div>
         </div>
     </section>
-   
+
 
     <section class="s_about mt-50">
         <div class="stick"></div>
@@ -52,7 +52,7 @@ include('header.php')
             </div>
         </div>
     </section>
- <section class="s_serch mt-50" id="search">
+    <section class="s_serch mt-50" id="search">
         <div class="container f-c a-c g-50">
             <h3 class="s_title"><span class="color_text">Быстрый поиск</span></h3>
             <form action="#" class="d-flex f-c a-c g-50 w-100">
@@ -87,10 +87,15 @@ include('header.php')
                         </span>
                         <span>2300 рублей</span>
                         <a href="catalog.php" class="btn">Подробнее</a>
-                        <span>Рейтинг: <div class="d-flex a-c g-10"><div class="star"></div><div class="star"></div><div class="star"></div></div></span>
+                        <div>Рейтинг: <div class="d-flex a-c g-10">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                 <div class="card d-flex f-c">
+                <div class="card d-flex f-c">
                     <div class="card_img"></div>
                     <div class="p-20 d-flex f-c a-c g-20">
                         <h3>DOOM The Dark Ages</h3>
@@ -103,9 +108,14 @@ include('header.php')
                         </span>
                         <span>2300 рублей</span>
                         <a href="catalog.php" class="btn">Подробнее</a>
-                        <span>Рейтинг: <div class="d-flex a-c g-10"><div class="star"></div><div class="star"></div><div class="star"></div></div></span>
+                        <div>Рейтинг: <div class="d-flex a-c g-10">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
                     </div>
-                </div> <div class="card d-flex f-c">
+                </div><div class="card d-flex f-c">
                     <div class="card_img"></div>
                     <div class="p-20 d-flex f-c a-c g-20">
                         <h3>DOOM The Dark Ages</h3>
@@ -118,9 +128,14 @@ include('header.php')
                         </span>
                         <span>2300 рублей</span>
                         <a href="catalog.php" class="btn">Подробнее</a>
-                        <span>Рейтинг: <div class="d-flex a-c g-10"><div class="star"></div><div class="star"></div><div class="star"></div></div></span>
+                        <div>Рейтинг: <div class="d-flex a-c g-10">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
                     </div>
-                </div> <div class="card d-flex f-c">
+                </div><div class="card d-flex f-c">
                     <div class="card_img"></div>
                     <div class="p-20 d-flex f-c a-c g-20">
                         <h3>DOOM The Dark Ages</h3>
@@ -133,9 +148,14 @@ include('header.php')
                         </span>
                         <span>2300 рублей</span>
                         <a href="catalog.php" class="btn">Подробнее</a>
-                        <span>Рейтинг: <div class="d-flex a-c g-10"><div class="star"></div><div class="star"></div><div class="star"></div></div></span>
+                        <div>Рейтинг: <div class="d-flex a-c g-10">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
                     </div>
-                </div> <div class="card d-flex f-c">
+                </div><div class="card d-flex f-c">
                     <div class="card_img"></div>
                     <div class="p-20 d-flex f-c a-c g-20">
                         <h3>DOOM The Dark Ages</h3>
@@ -148,13 +168,19 @@ include('header.php')
                         </span>
                         <span>2300 рублей</span>
                         <a href="catalog.php" class="btn">Подробнее</a>
-                        <span>Рейтинг: <div class="d-flex a-c g-10"><div class="star"></div><div class="star"></div><div class="star"></div></div></span>
+                        <div>Рейтинг: <div class="d-flex a-c g-10">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-    <section class="s_partners mt-50 mb-50">
+    <section class="s_partners mt-50 ">
         <div class="stick"></div>
         <div class="stick stick-2"></div>
 
@@ -166,7 +192,7 @@ include('header.php')
                     <div class="partener2"></div>
 
                 </div>
-                    <div class="partener3"></div>
+                <div class="partener3"></div>
 
             </div>
         </div>

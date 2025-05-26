@@ -241,7 +241,7 @@ label {
         color: red;
     }
 
-    &~.fb_invalid {
+    &~.fb_valid {
         display: none;
         color: green;
     }
@@ -336,8 +336,8 @@ label {
 }
 
 .partener1 {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     background-image: url('./../media/companies/partners/2025-05-24_14-11.png');
     flex-shrink: 0;
     background-position: center;
@@ -346,8 +346,8 @@ label {
 }
 
 .partener2 {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     background-image: url('./../media/companies/partners/DShop.png');
     flex-shrink: 0;
     background-position: center;
@@ -387,4 +387,30 @@ footer {
             color: #eeee;
         }
     }
+   
+}
+
+.sticked {
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.user_block {
+    border: 2px solid var(--mainColor);
+    border-radius: 20px;
+    width: 70vw;
+}
+
+.user_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    flex-shrink: 0;
+     background-image: url('./../media/users/1667929102152124336.jpg');
+    background-size: cover;
+    background-position: center;
 }

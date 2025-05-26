@@ -11,7 +11,7 @@
 <body>
 
 <header>
-    <div class="container p-20">
+    <div class="container p-30">
         <div class="logo">
             <img src="" alt="logo">
         </div>
