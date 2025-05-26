@@ -9,7 +9,7 @@ include('header.php')
             <div class="d-flex f-c a-c g-40">
                 <div class="slider d-flex ">
                     <div class="slider_img"></div>
-                    <div class="d-flex f-c a-c g-50 p-20 w-100">
+                    <div class="d-flex f-c a-c g-50 p-20 w-100 slider_info">
                         <h3>DOOM The Dark Ages</h3>
                         <span class="d-block">от 2300 рублей</span>
                         <a class="btn" href="catalog.php">Подробнеее</a>
@@ -40,7 +40,7 @@ include('header.php')
 
         <div class="container f-c a-c g-50 p-20">
             <h3 class="s_title">Наши преумщества</h3>
-            <div class="d-flex w-100 c-b fw-w">
+            <div class="d-flex w-100 c-b fw-w about_block">
                 <div class="d-flex  f-c g-20">
                     <div>Самые <span class="color_text">Привлекательные цены</span> </div>
                     <div><span class="color_text">Ежемесячные</span> акции</div>

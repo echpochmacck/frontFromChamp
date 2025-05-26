@@ -59,7 +59,7 @@ include('header.php')
                     <label for="confirm">Согласие на обработку персональных данных</label>
                         <input type="checkbox" id="confirm">
                 </div>
-                    <div class="btn">Отправить</div>
+                    <button class="btn">Отправить</button>
 
 
             </form>

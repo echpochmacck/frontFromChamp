@@ -22,7 +22,7 @@ include('header.php')
 
                 </label>
                 <div class="d-flex f-c a-c g-20 w-100">
-                    <div class="btn">Войти</div>
+                    <button class="btn">Войти</button>
                 <a href="#" class="d-block">Забыли пароль?</a>
                 </div>
 
