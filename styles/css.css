@@ -1,0 +1,390 @@
+/* base settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+:root {
+    --mainSise: 20px;
+    --secondSise: 50px;
+    --mainColor: #3914AF
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../media/fonts/Roboto.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../media/fonts/Roboto.ttf');
+}
+
+
+body {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    font-size: var(--mainSise);
+    font-family: "Roboto";
+    min-height: 100%;
+    overflow-x: hidden;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+h1, h2, h3 {
+    display: block;
+}
+
+.s_title {
+    font-size: var(--secondSise);
+}
+
+.color_text {
+    color: var(--mainColor);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: clamp(200px, 90%, 1200px);
+}
+
+header {
+    width: 100vw;
+    top: 0;
+    z-index: 9;
+    position: sticky;
+    border-bottom: 2px solid var(--mainColor);
+    backdrop-filter: blur(20px);
+
+    & a {
+        color: var(--mainColor);
+        display: block;
+        border: 2px solid transparent;
+        transition: .4s;
+        padding: 1.5px;
+
+        &:hover {
+            border-bottom: 2px solid var(--mainColor);
+        }
+    }
+}
+
+.slider {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(230, 228, 228, .3);
+    border: 2px solid var(--mainColor);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+
+    * .btn {
+
+        width: 200px;
+    }
+
+    & h3 {
+        color: var(--mainColor);
+    }
+}
+
+.slider_img {
+    width: 40%;
+    flex-shrink: 0;
+    background-image: url('./../media/games/doom/30ab6302-e359-47de-b97c-ce91794dc842.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.btn {
+    transition: .4s;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--mainColor);
+    color: white;
+    height: 40px;
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+
+    &:hover {
+
+        border-radius: 15px;
+    }
+
+}
+
+.c-b {
+    justify-content: space-between;
+}
+
+.slider_buttons {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2%;
+
+    & div {
+        width: 10%;
+        height: 8px;
+        background-color: grey;
+        transition: .4s;
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+}
+
+.active {
+    background-color: white !important;
+}
+
+.sliders {
+    display: flex;
+
+    & div {
+        transition: .4s;
+        background-image: url('./../media/pngs/image.png');
+        height: 150px;
+        width: 300px;
+        flex-shrink: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &:hover {
+            transform: scale(1.01);
+        }
+    }
+}
+
+/* base form settings */
+
+
+.form {
+    max-width: 600px;
+
+    & .btn {
+        height: 50px;
+    }
+}
+
+label {
+    max-width: 600px;
+    transition: .4s;
+}
+
+.form_control {
+    transition: .4s;
+    border-radius: 15px;
+    border: 2px solid transparent var(--mainColor);
+    border-bottom: 2px solid var(--mainColor);
+    transition: .4s;
+    max-width: 600px;
+    width: 100%;
+    background-color: rgb(128, 128, 128, .3);
+    height: 40px;
+    padding: 10px;
+
+    &:hover {
+        border: 2px solid var(--mainColor);
+    }
+
+    &~.fb_invalid {
+        display: none;
+        color: red;
+    }
+
+    &~.fb_invalid {
+        display: none;
+        color: green;
+    }
+
+    &.is_valid {
+        border-bottom: 2px solid green;
+
+        &:hover {
+            border: 2px solid green;
+        }
+
+        &~.fb_valid {
+
+            display: block;
+        }
+    }
+
+    &.is_invalid {
+        border-bottom: 2px solid red;
+
+        &:hover {
+            border: 2px solid red;
+        }
+
+        &~.fb_invalid {
+
+            display: block;
+        }
+    }
+}
+
+
+
+.s_about {
+    border-top: 2px solid var(--mainColor);
+    border-bottom: 2px solid var(--mainColor);
+
+    overflow: hidden;
+    position: relative;
+
+    & div {
+        font-size: 30px;
+    }
+}
+
+
+.about_img {
+    height: 300px;
+    width: 500px;
+    background-image: url('./../media/games/gta/1c0e0599-fad2-42c0-b496-5e299401eecd.jpg');
+    flex-shrink: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 0px 30px var(--mainColor));
+}
+
+.stick {
+    width: 2px;
+    height: 200%;
+    position: absolute;
+    left: 4%;
+    background-color: var(--mainColor);
+    transform: rotate(2deg);
+}
+
+.stick-2 {
+
+    transform: rotate(44deg);
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 20px;
+    transition: .4s;
+    border: 2px solid var(--mainColor);
+    width: calc((1200px - 40px) / 3);
+
+    &:hover {
+        transform: scale(1.01);
+    }
+}
+
+.card_img {
+    width: 100%;
+    height: 200px;
+    background-image: url('./../media/games/doom/a6d02527-9309-4856-8ff3-e77ec85340d2.jpg');
+    flex-shrink: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.partener1 {
+    width: 300px;
+    height: 300px;
+    background-image: url('./../media/companies/partners/2025-05-24_14-11.png');
+    flex-shrink: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.partener2 {
+    width: 300px;
+    height: 300px;
+    background-image: url('./../media/companies/partners/DShop.png');
+    flex-shrink: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.partener3 {
+    width: 500px;
+    height: 500px;
+    background-image: url('./../media/companies/partners/KENT_PRICE.png');
+    flex-shrink: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     filter: drop-shadow(0px 0px 30px var(--mainColor));
+}
+
+.s_partners {
+    overflow: hidden;
+    position: relative;
+        border-top: 2px solid var(--mainColor);
+    border-bottom: 2px solid var(--mainColor);
+}
+
+/* footer  */
+footer {
+     width: 100vw;
+    background-color: #1f1f1f;
+    & a {
+        color: #aaaa;
+        display: block;
+        border: 2px solid transparent;
+        transition: .4s;
+
+        &:hover {
+            color: #eeee;
+        }
+    }
+}
