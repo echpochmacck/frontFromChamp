@@ -11,10 +11,12 @@
 <body>
 
 <header>
-    <div class="container p-20">
-        <div class="logo">
-            <img src="" alt="logo">
-        </div>
+    <div class="container p-20  c-b">
+      <a href="/">
+                <div class="logo">
+
+                </div>
+            </a>
         <ul class="d-flex a-c g-20 fw-w">
             <li><a href="/#search">Поиск</a></li>
             <li><a href="login.html">Войти</a></li>
@@ -23,7 +25,7 @@
         </ul>
     </div>
 </header>
-<main class="sticked ">
+<main class="sticked blured ">
     <div class="stick"></div>
     <div class="stick stick-2"></div>
 
@@ -33,31 +35,31 @@
              <form action="#" class="d-flex f-c a-c g-50 w-100">
                 <label class="d-flex f-c a-c g-20 w-100">
                     E-mail
-                    <input type="email" class="form_control is_invalid" placeholder="email" require>
+                    <input type="email" class="form_control is_invalid" placeholder="email" required>
                     <div class="fb_invalid">Нужно заполнить</div>
 
                 </label>
                  <label class="d-flex f-c a-c g-20 w-100">
                    Фамилия
-                    <input type="text" class="form_control is_invalid" placeholder="фамиилия" require>
+                    <input type="text" class="form_control is_invalid" placeholder="фамиилия" required>
                     <div class="fb_invalid">Нужно заполнить</div>
 
                 </label>
                  <label class="d-flex f-c a-c g-20 w-100">
                    Имя
-                    <input type="text" class="form_control is_valid" placeholder="имя" require value="Максим">
+                    <input type="text" class="form_control is_valid" placeholder="имя" required value="Максим">
                     <div class="fb_valid">все верно</div>
 
                 </label>
                  <label class="d-flex f-c a-c g-20 w-100">
                    Дата рождения
-                    <input type="date" class="form_control is_invalid" placeholder="дата рождения" require >
+                    <input type="date" class="form_control is_invalid" placeholder="дата рождения" required >
                     <div class="fb_invalid">нужно заполнить</div>
 
                 </label>
                  <label class="d-flex f-c a-c g-20 w-100">
                    Номер телефона 
-                    <input type="tel" class="form_control is_invalid" placeholder="номер телефона" require >
+                    <input type="tel" class="form_control is_invalid" placeholder="номер телефона" required >
                     <div class="fb_invalid">нужно заполнить</div>
 
                 </label>
@@ -79,9 +81,9 @@
                 </label>
                 <div class="d-flex a-c g-20">
                     <label for="confirm">Согласие на обработку персональных данных</label>
-                        <input type="checkbox" id="confirm">
+                        <input type="checkbox" id="confirm" required>
                 </div>
-                    <div class="btn">Отправить</div>
+                    <button class="btn" type="submit">Отправить</button>
 
 
             </form>
@@ -91,28 +93,29 @@
     
 </main>
    <footer>
-    <div class="container c-b fw-w p-20">
-        <div class="d-flex f-c  g-20">
-            <a href="tel:88009995599">8-800-999-55-99</a>
-            <a href="mailto:best@games.ru">best@games.ru</a>
-            <a href="#">Клиентам</a>
-            <a href="#">Партнерам</a>
-            <a href="#">О нас</a>
-            <a href="#">Контакты</a>
+        <div class="container c-b fw-w p-20">
+            <div class="qr"></div>
+            <div class="d-flex f-c  g-20">
+                <a href="tel:88009995599">8-800-999-55-99</a>
+                <a href="mailto:best@games.ru">best@games.ru</a>
+                <a href="#">Клиентам</a>
+                <a href="#">Партнерам</a>
+                <a href="#">О нас</a>
+                <a href="#">Контакты</a>
 
 
+            </div>
+            <nav class="d-flex f-c  g-20">
+                <a href="/">Главная</a>
+                <a href="register.html">Регистрация</a>
+                <a href="login.html">Авторизация</a>
+                <a href="profile.html">Личный кабинет</a>
+                <a href="/#search">Поиск</a>
+
+
+
+            </nav>
         </div>
-        <nav class="d-flex f-c  g-20">
-            <a href="/">Главная</a>
-            <a href="register.html">Регистрация</a>
-            <a href="login.html">Авторизация</a>
-            <a href="profile.html">Личный кабинет</a>
-            <a href="/#search">Поиск</a>
-
-
-            
-        </nav>
-    </div>
-   </footer> 
+    </footer>
 </body>
 </html>

@@ -5,7 +5,11 @@
 
 body {
     color: #ffff;
-    background-color: #444444;
+    background-color: #333333;
+}
+.slider h3 {
+    color: #fff;
+
 }
 
 .slider_buttons {
@@ -31,10 +35,30 @@ body {
     }
 
 }
+.active {
+    background-color: var(--mainColor) !important; 
+}
 .sliders {
 
     & div {
-        background-image: url('./../media/pngs/image2.png');
+        background-image: url('./../media/pngs/sliders-dark3.png');
       
     }
 }
+
+
+.logo {
+    background-image: url('./../media/icons/logo-dark.png');
+}
+
+
+@keyframes bounce1 {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(20%);
+    }
+    
+}
+

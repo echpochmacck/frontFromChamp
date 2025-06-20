@@ -13,125 +13,137 @@
 <body>
 
     <header>
-        <div class="container p-30">
+        <div class="container c-b p-30">
 
+            <a href="/">
                 <div class="logo">
-                    <a href="/"></a>
-                </div>
-                <ul class="d-flex a-c g-20 fw-w header_info">
-                    <li><a href="/#search">Поиск</a></li>
-                    <li><a href="login.html">Войти</a></li>
-                    <li><a href="profile.html">Личный кабинет</a></li>
-                    <li><a href="catalog.html">Каталог игр</a></li>
-                    <li class="d-flex a-c g-10"><a href="#">Сменить пароль</a><div class="change"></div></li>
-                    <li><div class="light"></div></li>
 
-                </ul>
-                <div class="burger d-flex f-c a-c g-10">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-    
                 </div>
+            </a>
+            <ul class="d-flex a-c g-20 fw-w header_info">
+                <li><a href="/#search">Поиск</a></li>
+                <li><a href="login.html">Выйти</a></li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+                <li><a href="catalog.html">Каталог игр</a></li>
+                <li class="d-flex a-c g-10 change-block"><span class="color_text">Сменить пароль</span>
+                    <div class="change"></div>
+                </li>
+                <li>
+                    <div class="light"></div>
+                </li>
+
+            </ul>
+            <div class="burger d-flex f-c a-c g-10">
+                <div></div>
+                <div></div>
+                <div></div>
+
+            </div>
 
         </div>
-    </header><main>
-    <section class="s_user_info">
-        <div class="container f-c a-c g-50">
-            <h1 class="s_title">Профиль пользователя <span class="color_text">Fabiannand</span></h1>
-            <div class="user_block">
-                <div class="p-50 d-flex w-100 c-b fw-w">
-                    <div class="d-flex f-c g-30">
-                        <div>E-mail: <span class="color_text">bozet_ikuwo5@aol.com</span></div>
-                        <div>Фамилия: <span class="color_text">Агапова</span></div>
-                        <div>Имя: <span class="color_text">Мия</span></div>
-                        <div>Номер телефона: <span class="color_text">8(917)223-62-05</span></div>
+    </header>
+    <main>
+        <section class="s_user_info blure">
+            <div class="container f-c a-c g-50">
+                <h1 class="s_title bounce">Профиль пользователя <span class="color_text">Fabiannand</span></h1>
+                <div class="user_block">
+                    <div class="p-50 d-flex w-100 a-c c-b fw-w">
+                        <div class="d-flex f-c g-30">
+                            <div>E-mail: <span class="color_text">bozet_ikuwo5@aol.com</span></div>
+                            <div>Фамилия: <span class="color_text">Агапова</span></div>
+                            <div>Имя: <span class="color_text">Мия</span></div>
+                            <div>Дата рождения: <span class="color_text">22-06-2006</span></div>
 
+                            <div>Номер телефона: <span class="color_text">8(917)223-62-05</span></div>
+
+
+                        </div>
+                        <div class="user_img"></div>
 
                     </div>
-                    <div class="user_img"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="card_block mt-50 mb-50 profile_card_block">
+            <div class="container f-c a-c g-50">
+                <h3 class="s_title"> <span class="color_text">История</span> покупок</h3>
+                <div class="card_block d-flex a-c g-20 w-100 fw-w">
+                    <div class="card d-flex f-c" id="card1">
+                        <div class="card_img"></div>
+                        <div class="p-20 d-flex f-c a-c g-20">
+                            <h3>DOOM <span class="color_text2">The Dark Ages</span></h3>
+                            <span class="d-block">
+                                Дата покупки: 20-02-2025
+                            </span>
+                            <span class="d-block">
+                                Разработчик: id Software
+                            </span>
+                            <span>2300 рублей</span>
+                            <a href="catalog.html" class="btn">Повторить</a>
+                        </div>
+                    </div>
+                    <div class="card d-flex f-c">
+                        <div class="card_img" id="card6"></div>
+                        <div class="p-20 d-flex f-c a-c g-20">
+                            <h3>M5 СИНЯЯ</h3>
+                            <span class="d-block">
+                                Дата покупки: 23-02-2025
+                            </span>
+                            <span class="d-block">
+                                с кольца едет 730+
+                            </span>
+                            <span>2500 рублей</span>
+                            <a href="catalog.html" class="btn">Повторить</a>
+                        </div>
+                    </div>
+                    <div class="card d-flex f-c">
+                        <div class="card_img" id="card5"></div>
+                        <div class="p-20 d-flex f-c a-c g-20">
+                            <h3>Clair <span class="color_text2">Obscur Expedition</span> 33</h3>
+                            <span class="d-block">
+                                Дата покупки: 24-02-2025
+                            </span>
+                            <span class="d-block">
+                                Разработчик: Sandfall Interactive
+                            </span>
+                            <span>2300 рублей</span>
+                            <a href="catalog.html" class="btn">Повторить</a>
+                        </div>
+                    </div>
 
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container c-b fw-w p-20">
+            <div class="qr"></div>
+            <div class="d-flex f-c  g-20">
+                <a href="tel:88009995599">8-800-999-55-99</a>
+                <a href="mailto:best@games.ru">best@games.ru</a>
+                <a href="#">Клиентам</a>
+                <a href="#">Партнерам</a>
+                <a href="#">О нас</a>
+                <a href="#">Контакты</a>
 
 
-    <section class="card_block mt-50 mb-50">
-        <div class="container f-c a-c g-50">
-            <h3 class="s_title"> <span class="color_text">История</span> покупок</h3>
-            <div class="card_block d-flex a-c g-20 w-100 fw-w">
-                <div class="card d-flex f-c" id="card1">
-                    <div class="card_img"></div>
-                    <div class="p-20 d-flex f-c a-c g-20">
-                        <h3>DOOM The Dark Ages</h3>
-                        <span class="d-block">
-                            Дата покупки: 20-02-2025
-                        </span>
-                        <span class="d-block">
-                            Разработчик: id Software
-                        </span>
-                        <span>2300 рублей</span>
-                        <a href="catalog.html" class="btn">Повторить</a>
-                    </div>
-                </div>
-                 <div class="card d-flex f-c" id="card1">
-                    <div class="card_img" id="card2"></div>
-                    <div class="p-20 d-flex f-c a-c g-20">
-                        <h3>Assassins Creed Valhalla</h3>
-                        <span class="d-block">
-                            Дата покупки: 23-02-2025
-                        </span>
-                        <span class="d-block">
-                            Разработчик: Ubisoft
-                        </span>
-                        <span>4500 рублей</span>
-                        <a href="catalog.html" class="btn">Повторить</a>
-                    </div>
-                </div> <div class="card d-flex f-c" id="card1">
-                    <div class="card_img" id="card5"></div>
-                    <div class="p-20 d-flex f-c a-c g-20">
-                        <h3>Clair Obscur Expedition 33</h3>
-                        <span class="d-block">
-                            Дата покупки: 24-02-2025
-                        </span>
-                        <span class="d-block">
-                            Разработчик: Sandfall Interactive
-                        </span>
-                        <span>2300 рублей</span>
-                        <a href="catalog.html" class="btn">Повторить</a>
-                    </div>
-                </div>
-               
             </div>
+            <nav class="d-flex f-c  g-20">
+                <a href="/">Главная</a>
+                <a href="register.html">Регистрация</a>
+                <a href="login.html">Авторизация</a>
+                <a href="profile.html">Личный кабинет</a>
+                <a href="/#search">Поиск</a>
+
+
+
+            </nav>
         </div>
-    </section>
-   
-</main>
-   <footer>
-    <div class="container c-b fw-w p-20">
-        <div class="d-flex f-c  g-20">
-            <a href="tel:88009995599">8-800-999-55-99</a>
-            <a href="mailto:best@games.ru">best@games.ru</a>
-            <a href="#">Клиентам</a>
-            <a href="#">Партнерам</a>
-            <a href="#">О нас</a>
-            <a href="#">Контакты</a>
-
-
-        </div>
-        <nav class="d-flex f-c  g-20">
-            <a href="/">Главная</a>
-            <a href="register.html">Регистрация</a>
-            <a href="login.html">Авторизация</a>
-            <a href="profile.html">Личный кабинет</a>
-            <a href="/#search">Поиск</a>
-
-
-            
-        </nav>
-    </div>
-   </footer>
+    </footer>
 
 </body>
+
 </html>

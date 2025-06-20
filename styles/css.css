@@ -16,6 +16,9 @@ html {
     --mainColor: #3914AF
 }
 
+.color_text2 {
+    color: #ff9700;
+}
 
 @font-face {
     font-family: 'Roboto';
@@ -213,11 +216,13 @@ header {
 /* base form settings */
 
 
-.form {
+form {
     max-width: 600px;
 
-    & .btn {
-        height: 50px;
+    & .btn{
+        width: 100%;
+        height: 45px;
+        font-size: 22px !important;
     }
 }
 
@@ -230,7 +235,7 @@ label {
     outline: none;
     transition: .4s;
     border-radius: 15px;
-    border: 2px solid transparent var(--mainColor);
+    border: 2px solid transparent;
     border-bottom: 2px solid var(--mainColor);
     transition: .4s;
     max-width: 600px;
@@ -411,7 +416,7 @@ footer {
 .user_block {
     border: 2px solid var(--mainColor);
     border-radius: 20px;
-    width: 70vw;
+    width: 50vw;
 }
 @keyframes movingDrop {
     
@@ -426,6 +431,10 @@ footer {
     
 }
 .user_img {
+    transition: .4s;
+    &:hover {
+        transform: scale(1.06);
+    }
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -460,6 +469,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .2s;
+    &:hover {
+        transform: scale(1.04);
+    }
 }
 
 @media screen and (max-width:1300px) {
@@ -471,6 +484,7 @@ footer {
 
 /* mobile */
 @media screen and (max-width:800px) {
+   
     .about_block {
         & div {
             font-size: 20px;
@@ -495,7 +509,9 @@ footer {
 
 @media screen and (max-width:600px) {
 
-
+ .qr {
+        display: none;
+    }
     :root {
         --mainSise: 16px;
         --secondSise: 30px;
@@ -523,7 +539,9 @@ footer {
         width: 300px;
         height: 150px;
         font-size: 14px !important;
-
+        & p {
+            display: none;
+        }
         & .btn {
             height: 20px;
             width: 100px;
@@ -557,9 +575,13 @@ footer {
 /* burger */
 
 .burger {
+    padding: 3px;
     transition: .4s;
 
+    border: 2px solid transparent;
     &:hover {
+        border-bottom: 2px solid var(--mainColor);
+        border-right: 2px solid var(--mainColor);
         transform: scale(1.05);
     }
 
@@ -708,16 +730,20 @@ footer {
 
     background-image: url('./../media/icons/light.png');
 }
-
-.change {
+.change-block {
     cursor: pointer;
+    transition: .4s;
     border: 2px solid transparent;
 
-    transition: .4s;
-
-    &:hover {
+  &:hover {
         border-bottom: 2px solid var(--mainColor);
     }
+}
+.change {
+    cursor: pointer;
+
+
+  
 
     width: 50px;
     height: 50px;
@@ -772,4 +798,60 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     
+}
+
+.partner {
+    transition: .4s;
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+
+
+.logo {
+    cursor: pointer;
+
+ 
+    height: 60px;
+    width: 60px;
+    background-image: url('./../media/icons/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+#card6 {
+    background-image: url('./../media/items/1f00e184-55a1-61a0-ad6a-7214d2c47d50.jpg');
+}
+
+.profile_card_block .card{
+    height: 500px;
+}
+.icon3 {
+    animation: bounce1 1s linear infinite alternate-reverse;
+}
+.icon4 {
+    animation: bounce1 1s linear infinite alternate;
+
+}
+.icon2 {
+    animation: bounce1 1s linear infinite alternate-reverse;
+
+}
+.icon5 {
+    animation: bounce1 1s linear infinite alternate;
+
+}
+.bounce {
+   animation: bounce1 .6s linear infinite alternate;
+}
+
+.qr {
+    background-image: url('./../media/icons/qrcode_nndvdue-m1.web.ru.png');
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

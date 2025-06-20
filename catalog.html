@@ -13,11 +13,13 @@
 <body>
 
     <header>
-        <div class="container p-30">
-
+        <div class="container p-30 c-b">
+            
+            <a href="/">
                 <div class="logo">
-                    <a href="/"></a>
+
                 </div>
+            </a>
                 <ul class="d-flex a-c g-20 fw-w header_info">
                     <li><a href="/#search">Поиск</a></li>
                     <li><a href="login.html">Войти</a></li>
@@ -37,7 +39,7 @@
 
     <section class="s_serch blured" id="search">
         <div class="container f-c a-c g-50">
-            <h3 class="s_title"><span class="color_text desctop-filter">Поиск по жанру</span></h3>
+            <h3 class="s_title"><span class="color_text desctop-filter">Поиск по жанру</span> </h3>
             
             <form action="#" class="d-flex f-c a-c g-50 w-100 desctop-filter">
                 <label class="d-flex f-c a-c g-20 w-100">
@@ -50,21 +52,22 @@
                     </select>
 
                 </label>
-                <div class="btn">Найти</div>
+                <button class="btn" type="submit">Найти</button>
 
             </form>
         </div>
     </section>
       <section class="card_block mt-50 mb-50">
             <div class="container f-c a-c g-50">
-                <h3 class="s_title"> <span class="color_text">Популярные</span> игры</h3>
+                <h3 class="s_title"> <span class="color_text">Популярные</span> игры</h3> 
+                <div class="filter_icon"></div>
                 <div class="card_block d-flex a-c g-20 w-100 fw-w">
                     <div class="card d-flex f-c">
                         <div class="card_img" id="card5"></div>
                         <div class="p-20 d-flex f-c a-c g-20">
                             <h3>Clair Obscur Expedition 33</h3>
                             <span class="d-block">
-                                Жанр: Приключенческий экшен
+                                Жанр: <span class="color_text2">Приключенческий экшен</span>
 
                             </span>
                             <span class="d-block">
@@ -84,7 +87,7 @@
                         <div class="p-20 d-flex f-c a-c g-20">
                             <h3>DOOM The Dark Ages</h3>
                             <span class="d-block">
-                                Жанр: Файтинг
+                                Жанр: <span class="color_text2">Файтинг</span>
 
                             </span>
                             <span class="d-block">
@@ -105,7 +108,7 @@
                         <div class="p-20 d-flex f-c a-c g-20">
                             <h3>Assassins Creed Valhalla</h3>
                             <span class="d-block">
-                                Жанр: Приключенческий экшен
+                                Жанр: <span class="color_text2">Приключенческий экшен</span>
                             </span>
                             <span class="d-block">
                                 Разработчик: Ubisoft
@@ -127,7 +130,7 @@
                         <div class="p-20 d-flex f-c a-c g-20">
                             <h3>Grand Theft Auto V</h3>
                             <span class="d-block">
-                                Жанр: Приключенческий экшен
+                                Жанр: <span class="color_text2">Приключенческий экшен</span>
 
                             </span>
                             <span class="d-block">
@@ -151,7 +154,7 @@
                         <div class="p-20 d-flex f-c a-c g-20">
                             <h3>Обливион The Elder Scrolls 4</h3>
                             <span class="d-block">
-                                Жанр: Экшн/RPG
+                                Жанр: <span class="color_text2">Экшн/RPG</span>
 
                             </span>
                             <span class="d-block">
@@ -173,29 +176,30 @@
         </section>
   
 </main>
-   <footer>
-    <div class="container c-b fw-w p-20">
-        <div class="d-flex f-c  g-20">
-            <a href="tel:88009995599">8-800-999-55-99</a>
-            <a href="mailto:best@games.ru">best@games.ru</a>
-            <a href="#">Клиентам</a>
-            <a href="#">Партнерам</a>
-            <a href="#">О нас</a>
-            <a href="#">Контакты</a>
+  <footer>
+        <div class="container c-b fw-w p-20">
+            <div class="qr"></div>
+            <div class="d-flex f-c  g-20">
+                <a href="tel:88009995599">8-800-999-55-99</a>
+                <a href="mailto:best@games.ru">best@games.ru</a>
+                <a href="#">Клиентам</a>
+                <a href="#">Партнерам</a>
+                <a href="#">О нас</a>
+                <a href="#">Контакты</a>
 
 
+            </div>
+            <nav class="d-flex f-c  g-20">
+                <a href="/">Главная</a>
+                <a href="register.html">Регистрация</a>
+                <a href="login.html">Авторизация</a>
+                <a href="profile.html">Личный кабинет</a>
+                <a href="/#search">Поиск</a>
+
+
+
+            </nav>
         </div>
-        <nav class="d-flex f-c  g-20">
-            <a href="/">Главная</a>
-            <a href="register.html">Регистрация</a>
-            <a href="login.html">Авторизация</a>
-            <a href="profile.html">Личный кабинет</a>
-            <a href="/#search">Поиск</a>
-
-
-            
-        </nav>
-    </div>
-   </footer> 
+    </footer>
 </body>
 </html>
